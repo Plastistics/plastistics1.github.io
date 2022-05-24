@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #3e849e;
+
+}
+.nav_btns, li{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    background-color: #51acc5;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #51acc5;
+}
+
+.logo {
+    font-family: "Montserrat";
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+    background-color: rgba(44, 98, 104, 0.597);
+    color: white;
+    text-decoration: none;
+    margin-right: auto;
+    border-color: #004f64 ;
+    border-radius: 20px;
+    padding: 6px 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links{
+    list-style: none;
+    background-color: #51acc5;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: rgb(6, 28, 54);
+}
+
+.Contact {
+    padding: 9px 25px;
+    background-color: #1d536c;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    margin-left: 20px;
+    font-size: 17px;
+
+}
+
+.cta {
+    background-color: #51acc5;
+}
+
+.hero-image {
+    max-width: 500px;
+    height: 500px; 
+    float: right;
+    padding: 50px 200px 50px 0px;
+}
+
+div.hero {
+    display:flex;
+}
+
+.maintext {
+    font-family: "Montserrat", sans-serif;
+    padding: 150px 100px 10px 125px;
+    float: left;
+    font-size: 50px;
+    color: #fff;
+    animation: transitionIn 1s ;
+}
+
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+        transform: rotateY(-10deg);
+
+    }
+}
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+        transform: rotateY(0);
+    }
+
+.heroimage {
+    width: 300px;
+    height: 300px;
+    margin-top: 75px;
+    margin-right: 125px;
+}
+
+.learnmore {
+    padding: 9px 25px;
+    background-color: #1d536c;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    margin-left: 125px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    animation: transitionIn 1s ;
+}
+
+
+.learn_btn {
+    font-family: "Montserrat", sans-serif;
+    border: none;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 200px 30px 125px;
+    float: left;
+    font-size: 35px;
+    color: #fff; 
+    animation: transitionIn 1s ;
+}
+
+.abouthero {
+    display: flex;
+}
+.aboutheader {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+.aboutsection {
+    display: flex;
+    color: #fff;
+    font-size: 16px;
+    flex-basis: 50%;
+    float: left;
+    padding-top: 50px;
+    padding-left: 60px;
+    text-align: left;
+    line-height: 30px;
+    margin-left: 80px;
+    
+}
+
+.aboutimage {
+    margin-top: 20px;
+    display: flex;
+    padding-left: 100px;
+    width: 350px;
+    height: 250px;
+}
+
+.oceanheader {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 125px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+    display: flex;
+    font-size: 30px;
+    animation: transitionIn 1s ;
+}
+
+.oceaninfo {
+    text-align: left;
+    float: left;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 125px;
+    margin-top: -350px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fff;
+    animation: transitionIn 1s ;
+}
+
+.oceanimage {
+    width: 300px;
+    height: 300px;
+    border: 5px double white;
+    border-radius: 50px;
+    margin-left: 850px;
+    margin-top: -20px;
+    display: flex;
+    margin-bottom: 100px;
+    animation: transitionIn 1s ;
+}
+
+.oceanimage2 {
+    width: 500px;
+    height: 250px;
+    border: 5px double white;
+    border-radius: 50px;
+    margin-left: 125px;
+    margin-top: -800px;
+    margin-bottom: 75px;
+    animation: transitionIn 1s ;
+
+}
+
+.oceanfacts {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 400px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 30px;
+    animation: transitionIn 1s ;
+}
+
+.oceanstats {
+    text-align: right;
+    display: flex-box;
+    margin-top: 50px;
+    margin-right: 125px;
+    margin-left: 125px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 50px;
+    animation: transitionIn 1s ;
+    
+}
+
+.helpheader {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+.findusheader {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color: rgb(29, 83, 108,0.6);
+}
+
+.logo:hover {
+    background-color: rgba(44, 98, 104);
+}
+
+.impactland {
+    padding: 9px 25px;
+    background-color: #1d536c;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    margin-left: 50px;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 400px;
+    
+}
+
+.factsdiv {
+    background-color: #037182;
+    padding-top: 25px;
+    margin-bottom: 100px;
+}
+
+.custom-shape-divider-bottom-1653311292 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    padding-bottom: 50px;
+}
+
+.custom-shape-divider-bottom-1653311292 svg {
+    position: relative;
+    display: block;
+    width: calc(136% + 1.3px);
+    height: 107px;
+}
+
+.custom-shape-divider-bottom-1653311292 .shape-fill {
+    fill: #037182;
+}
